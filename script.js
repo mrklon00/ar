@@ -35,8 +35,8 @@ function staticLoadPlaces() {
         {
             name: "Misto",
             location: {
-                lat: 49.592051, // add here latitude if using static data
-                lng: 17.266007, // add here longitude if using static data
+                lat: 17.266007, // add here latitude if using stati49.592051c data
+                lng: 49.592051, // add here longitude if using static data
             }
         },
         {
