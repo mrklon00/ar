@@ -121,8 +121,10 @@ function renderPlaces(places) {
             }
         };
 
-        icon.addEventListener('click', clickListener);
+         text.addEventListener('loaded', () => {
+            window.dispatchEvent(new CustomEvent('gps-entity-place-loaded'))
+        });
 
-        scene.appendChild(icon);
+        scene.appendChild(text);
     });
 }
