@@ -49,8 +49,8 @@ function staticLoadPlaces() {
         {
             name: "Dalsimisto",
             location: {
-                lat: 49.586196, // add here latitude if using static data
-                lng: 18.019316, // add here longitude if using static data
+                lat: 18.019316, // add here latitude if using static data
+                lng: 49.586196, // add here longitude if using static data
             }
         },
         {
