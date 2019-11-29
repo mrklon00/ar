@@ -46,6 +46,20 @@ function staticLoadPlaces() {
                 lng: 17.266071,
             }
         }
+        {
+            name: "Dalsimisto",
+            location: {
+                lat: 49.586196, // add here latitude if using static data
+                lng: 18.019316, // add here longitude if using static data
+            }
+        },
+        {
+            name: 'UplneJinemisto',
+            location: {
+                lat: 49.586227,
+                lng: 18.019285,
+            }
+        }
     ];
 }
 
