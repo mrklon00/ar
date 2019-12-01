@@ -1,7 +1,5 @@
-
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -12,22 +10,35 @@
     <script>
         THREEx.ArToolkitContext.baseURL = 'https://raw.githack.com/jeromeetienne/ar.js/master/three.js/'
     </script>
-    
-    <script src="script.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
 </head>
 
-
-
 <body style='margin: 0; overflow: hidden;'>
-    <div class="centered instructions"></div>
-    <a-scene 
-        vr-mode-ui='enabled: false' 
-        embedded
+    <a-scene
+        vr-mode-ui="enabled: false"
+		embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-    <a-camera gps-camera rotation-reader></a-camera>
-</a-scene>
-<div class="centered">
-    <button data-action="change"></button>
-</div>
+        
+       <!--    <a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: 18.019285; latitude: 49.586227;" animation-mixer/>       --> 
+        <a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.3 0.3 0.3" gps-entity-place="longitude: 17.266071; latitude: 49.592089;" animation-mixer/>    
+    
+  <a-box color="yellow" scale="5 5 5" gps-entity-place="longitude: 17.266007; latitude: 49.592051;"></a-box>
+  
+        <a-camera gps-camera rotation-reader></a-camera>
+	</a-scene>
 </body>
+
+
+
+
+
+
+
+
+
+
+
+
+  <!--   <a-assets>
+    <a-asset-item id="tree-obj" src="/assets/mnich/mmnich.obj"></a-asset-item>
+    <a-asset-item id="tree-mtl" src="/assets/mnich/mmnich.mtl"></a-asset-item>
+  </a-assets>              -->
