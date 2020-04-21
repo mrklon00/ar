@@ -12,15 +12,27 @@
     </script>
 </head>
 
+<!-- include GeoAR.js -->
+<script src="gps-entity-place.js"></script>
+<script src="gps-camera-debug.js"></script>
+<script src="gps-camera.js"></script>
+<link rel="stylesheet" href="index.css">
+
+<script src="places.js"></script>
+
 <body style='margin: 0; overflow: hidden;'>
     <a-scene
+        cursor='rayOrigin: mouse; fuse: true; fuseTimeout: 0;'
+        raycaster="objects: [gps-entity-place];"
         vr-mode-ui="enabled: false"
 		embedded
         arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-        
+       
+       
+        <!-- 
         <a-entity gltf-model="./assets/magnemite/scene.gltf" rotation="0 180 0" scale="0.15 0.15 0.15" gps-entity-place="longitude: 18.019807; latitude: 49.586133;" animation-mixer/>
         <a-circle rotation="-90 0 0"" gps-entity-place="latitude: 49.5864494; longitude: 18.0198125"/>
-        <a-circle color="yellow" gps-entity-place="latitude: 49.5863139; longitude: 18.0192706"/>
+        <a-circle color="yellow" gps-entity-place="latitude: 49.5863139; longitude: 18.0192706"/>   --> 
         <a-camera gps-camera rotation-reader></a-camera>
 	</a-scene>
 </body>
