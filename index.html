@@ -18,6 +18,8 @@
 
 <body style='margin: 0; overflow: hidden;'>
     <a-scene
+    cursor='rayOrigin: mouse; fuse: true; fuseTimeout: 0;'
+        raycaster="objects: [gps-entity-place];"
         vr-mode-ui="enabled: false"
 		embedded
 		arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
@@ -34,7 +36,7 @@
     <img id="hora" src="hora.png">
   </a-assets>
 
-        <a-link href="index.html" title="Mnich" image="#hora" look-at="[gps-camera]" scale="1 1 1" gps-entity-place="latitude: 49.5863139; longitude: 18.0192706"></a-link>      
+        <a-link href="http://www.example.com/" title="Mnich" look-at="[gps-camera]" scale="1 1 1" gps-entity-place="latitude: 49.5863139; longitude: 18.0192706"></a-link>      
      
         <a-camera gps-camera rotation-reader>
 		</a-camera>
