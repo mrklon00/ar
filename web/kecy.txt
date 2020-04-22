@@ -1,0 +1,12 @@
+Ahoj lezče!
+Vítej v interaktivním v lezeckém průvodci. Je to experiment, který se snaží vyzkoušet kudy by
+se mohl dál ubírat vývoj lezeckých průvodců. Aktuálně máme zpracované 2 oblasti, tak si jednu
+vyber a ochutnej jak by mohla vypadat budoucnost.
+
+A až se pokocháš, tak nezapomeň vyrazit do skal. Potkáme se tam!
+
+Ondra
+
+Tento web vznikl jako hlavní výsledek bakalářské práce s názvem Tvorba lezeckého průvodce s využitím
+pokročilých vizualizačních nástrojů. Tato práce vznikala na Katedře geoinformatiky Univerzity
+Palackého v Olomouci.

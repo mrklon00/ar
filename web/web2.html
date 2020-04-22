@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-2">
+<title>Mnich</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="styl.css">
+<style>
+html, body, h1, h2, h3, h4, h5 {font-family: "Raleway", sans-serif}
+</style>
+
+  <body>
+  
+  <div class="topnav">
+  <a class="active" href="#mnich">Mnich v Prachovských skalách</a>
+  <a href="#tatry">Ladový stít ve Vysokých Tatrách</a>
+  <a class="w3-right" href="#oprojektu">O projektu</a>
+
+</div>
+
+  
+  <div class="w3-container w3-content" style="max-width:2000px;margin-top:30px">    
+  <div class="w3-row-padding">
+     <!-- Model -->
+   <div class="w3-twothird w3-light-grey">
+      <h2>Interaktivní 3D model</h2>
+       <div class="sketchfab-embed-wrapper">
+    <iframe title="A 3D model" width="100%" height="600px" src="https://sketchfab.com/models/cc179e05df724457a35811746ad42706/embed?autospin=0&amp;autostart=1" frameborder="0" allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;">
+</p>
+</div>
+ </div>
+ 
+  
+     <!-- Cesty -->
+  <div class="w3-third w3-light-grey w3-margin_bottom" >  
+  <h2>Popis cest</h2>
+      <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-left-align w3-green">
+1. Západní sokolíky, VII</button>
+
+<div id="Demo1" class="w3-container w3-hide">
+  <p>Západní levou spárou na balkón při severozápadní hraně, doprava do západní stěny sokolíky přes dva kruhy a velké hodiny doprava za hranu a podél ní. J.Havlík, J. Franc, I.raňkotová,14.6.1962</p>
+</div>
+
+<button onclick="myFunction('Demo2')" class="w3-button w3-block w3-left-align w3-green">
+3. Podzimní spára, VII</button>
+
+<div id="Demo2" class="w3-container w3-hide">
+  <p>Západní pravou spárou přes kruh. J.Havlík, F.Kroupa, 2.10.1959</p>
+</div>
+
+<script>
+function myFunction(id) {
+  var x = document.getElementById(id);
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else {
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+   </div>
+   
+     <!-- Druha rada -->
+  <div class="w3-row"> 
+  
+   <div class="w3-third">
+   <img src="mnich.jpg" alt="Mnich" style="width:100%">
+  </div>
+  
+  <div class="w3-third w3-padding-large w3-light-grey">
+  <h2>Mnich</h2>
+   Skalní útvar Mnich (někdy se také nazývá Modlidba skal či Ruka) je jedna z nejvyích pískovcových věí v oblasti Prachovských skal. V roce 1907 se stala také prvním zdolaným vrcholem v oblasti, kdy se na ni 4. října 1907 podařilo vystoupit skupině jičínských studentů. Pro připomenutí je dodnes na vrcholu umístěna česká vlajka.  <br>   <br><br><br><br><br>
+      </div>
+      
+  <div class="w3-third"> 
+   <iframe src="https://api.mapy.cz/frame?params=%7B%22x%22%3A15.2906111111%2C%22y%22%3A50.4671944444%2C%22base%22%3A%222%22%2C%22layers%22%3A%5B7%5D%2C%22zoom%22%3A18%2C%22url%22%3A%22https%3A%2F%2Fmapy.cz%2Fs%2Fmokecosubu%22%2C%22mark%22%3A%7B%22x%22%3A%2215.2906111111%22%2C%22y%22%3A%2250.4671944444%22%2C%22title%22%3A%22Skaln%C3%AD%20v%C4%9B%C5%BE%20Mnich%22%7D%2C%22overview%22%3Atrue%7D&amp;width=500&amp;height=333&amp;lang=cs" width="100%" height="333" style="border:none" frameBorder="0"></iframe>
+   </div>   
+ 
+      
+   </div>
+   </div>  
+   </div>    
+  </body>
+</html>
+
