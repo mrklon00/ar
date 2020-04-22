@@ -23,24 +23,37 @@
         vr-mode-ui="enabled: false"
 		embedded
 		arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
-
+    
+      <!--    BODY   -->
+      <a-image src="hora3.png" look-at="[gps-camera]" scale="20 20 20" gps-entity-place="longitude: 18.019807; latitude: 49.586133;"></a-image>
+         <a-text value="Mnich" align='center' baseline="top" z-offset="0.1" look-at="[gps-camera]" scale="20 20 20"
+            gps-entity-place="longitude: 18.019807; latitude: 49.586133;"></a-text>
+    
+      <a-image src="hora3.png" look-at="[gps-camera]" scale="20 20 20" gps-entity-place="longitude: 18.0198125; latitude: 49.5864494;"></a-image>
+         <a-text value="Druhy bod" align='center' baseline="top" z-offset="0.1" look-at="[gps-camera]" scale="20 20 20"
+            gps-entity-place="longitude: 18.0198125; latitude: 49.5864494;"></a-text>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
       <!--  <a-text value="Mnich" align='center' look-at="[gps-camera]" scale="10 10 10"
             gps-entity-place="latitude: 49.5863139; longitude: 18.0192706;"></a-text>
                   <a-entity image="src:hora.png; title:Mnich" look-at="[gps-camera]" scale="3 3 3" gps-entity-place="latitude: 49.5863139; longitude: 18.0192706"></a-entity>   
         <a-image src="hora.png" look-at="[gps-camera]" scale="3 3 3" gps-entity-place="latitude: 49.5863139; longitude: 18.0192706"></a-image>  
         <a-link href="http://www.example.com/" title="Mnich" image="#hora" look-at="[gps-camera]" scale="10 10 10" gps-entity-place="latitude: 49.5863139; longitude: 18.0192706"></a-link> 
-         -->
-         <a-image src="hora3.png" look-at="[gps-camera]" scale="20 20 20" gps-entity-place="longitude: 18.019807; latitude: 49.586133;"></a-image>
-         <a-text value="Mnich" align='center' baseline="top" z-offset="0.1" look-at="[gps-camera]" scale="20 20 20"
-            gps-entity-place="longitude: 18.019807; latitude: 49.586133;"></a-text>
-
          
-        <a-assets>
+          <a-assets>
     <img id="hora" src="hora2.png">
         </a-assets>
-
-      
-     
+         -->
+ 
         <a-camera gps-camera rotation-reader>
 		</a-camera>
 	</a-scene>
