@@ -50,8 +50,8 @@ div.debug {
 }
 
 .centered {
-    height: 20%;
-    justify-content: center;
+    height: 2em;
+    justify-content: left;
     position: fixed;
     bottom: 0%;
     display: flex;
