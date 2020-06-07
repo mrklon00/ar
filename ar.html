@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="cs">
 <head>
-    <meta http-equiv="Content-type" content="text/html; charset=windows-1250">
+    <meta charset="UTF-8">
     <title>Rozšířená realita</title>
     <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
     <script src="https://unpkg.com/aframe-look-at-component@0.8.0/dist/aframe-look-at-component.min.js"></script>
@@ -11,13 +11,13 @@
     <script>
         THREEx.ArToolkitContext.baseURL = 'https://raw.githack.com/jeromeetienne/ar.js/master/three.js/'
     </script>
-</head>
+
 <link rel="stylesheet" type="text/css" href="index.css"/>
 <link rel="stylesheet" href="w3.css">  
 <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
-
+ </head>
 
 <body style='margin: 0; overflow: hidden;'>
         <div class="centered instructions">                                                                                      
@@ -32,6 +32,7 @@
 		arjs='sourceType: webcam; sourceWidth:1280; sourceHeight:960; displayWidth: 1280; displayHeight: 960; debugUIEnabled: false;'>
     
       <!--    BODY   -->
+             <!--    TESTOVACI BODY   -->
       <a-image src="hora5.png" look-at="[gps-camera]" scale="20 20 20" gps-entity-place="longitude: 18.019807; latitude: 49.586133;"></a-image>
          <a-text value="Zahradky fakt az blizko moc blizko" align='center' baseline="top" wrap-count="6" z-offset="0.01" transparent="false" look-at="[gps-camera]" scale="20 20 20"
             gps-entity-place="longitude: 18.019807; latitude: 49.586133;"></a-text>
@@ -80,17 +81,6 @@
          <a-text value="Zilinsky kopec" align='center' baseline="top" z-offset="0.1" look-at="[gps-camera]" scale="20 20 20"
             gps-entity-place="latitude: 49.5791933; longitude: 18.0300978;"></a-text>  
     
-    
-      <!--  <a-text value="Mnich" align='center' look-at="[gps-camera]" scale="10 10 10"
-            gps-entity-place="latitude: 49.5863139; longitude: 18.0192706;"></a-text>
-                  <a-entity image="src:hora.png; title:Mnich" look-at="[gps-camera]" scale="3 3 3" gps-entity-place="latitude: 49.5863139; longitude: 18.0192706"></a-entity>   
-        <a-image src="hora.png" look-at="[gps-camera]" scale="3 3 3" gps-entity-place="latitude: 49.5863139; longitude: 18.0192706"></a-image>  
-        <a-link href="http://www.example.com/" title="Mnich" image="#hora" look-at="[gps-camera]" scale="10 10 10" gps-entity-place="latitude: 49.5863139; longitude: 18.0192706"></a-link> 
-         
-          <a-assets>
-    <img id="hora" src="hora2.png">
-        </a-assets>
-         -->
          
           <!--    PRACHOVKY   -->
      <a-image src="hora3.png" look-at="[gps-camera]" scale="10 20 20" gps-entity-place="latitude: 50.4668056; longitude: 15.2856944;"></a-image>
